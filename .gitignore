@@ -47,7 +47,7 @@ coverage/
 *.lnk
 
 # Static build artifacts
-public/
+# (public/ must be committed so hosting providers like Vercel can access index.html)
 
 # Generated assets
 build/static/
