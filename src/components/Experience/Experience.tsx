@@ -14,7 +14,7 @@ function Experience() {
                 <FadeInSection>
                     <div className='space-y-2 md:space-y-6'>
                         <div className={`${pageStyles.sub_section_heading}`}>AlmaBetter Web Development Trainee</div>
-                        {/* <div className='flex flex-wrap items-center gap-x-2 gap-y-2 md:gap-x-4 md:gap-y-4'>
+                         <div className='flex flex-wrap items-center gap-x-2 gap-y-2 md:gap-x-4 md:gap-y-4'>
 
                         </div>
                         <div className={pageStyles.description}>
@@ -34,7 +34,7 @@ function Experience() {
                             </div>
                         }
 
-                        {/* {
+                         {
                             isExpanded &&
                             <div className={pageStyles.description}>
 
@@ -43,7 +43,7 @@ function Experience() {
                             consistency and reducing recurring defects by 30%.
 
                             </div>
-                        } */}
+                        } 
                         {
                             isExpanded &&
                             <div className={pageStyles.description}>
@@ -64,9 +64,9 @@ function Experience() {
                             <div className={pageStyles.tag}>
                                 TypeScript
                             </div>
-                            {/* <div className={pageStyles.tag}>
+                            <div className={pageStyles.tag}>
                                 VueJs
-                            </div> */}
+                            </div>
                             <div className={pageStyles.tag}>
                                 Google Places
                             </div>
@@ -76,18 +76,18 @@ function Experience() {
                             <div className={pageStyles.tag}>
                                 Swagger
                             </div>
-                            {/* <div className={pageStyles.tag}>
+                            <div className={pageStyles.tag}>
                                 GraphQL
-                            </div> */}
+                            </div>
                             <div className={pageStyles.tag}>
                                 Nodejs
                             </div>
                             <div className={pageStyles.tag}>
                                 Expressjs
                             </div>
-                            {/* <div className={pageStyles.tag}>
+                            <div className={pageStyles.tag}>
                                 RabbitMQ
-                            </div> */}
+                            </div>
                             <div className={pageStyles.tag}>
                                 Postman
                             </div>
@@ -103,9 +103,9 @@ function Experience() {
                             <div className={pageStyles.tag}>
                                 Debouncing
                             </div>
-                            {/* <div className={pageStyles.tag}>
+                            <div className={pageStyles.tag}>
                                 Pagination
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </FadeInSection>
