@@ -1,7 +1,6 @@
 
 import pageStyles from '../page.module.css';
-import styles from './experience.module.css';
-import Clip from './Clip';
+// removed unused imports (styles, Clip) that were causing ESLint errors in CI
 import FadeInSection from '../FadeInSection';
 import { useState } from 'react';
 
@@ -29,9 +28,7 @@ function Experience() {
                                 <span>
                                     Full Time
                                 </span>
-                                <span className='w-5 h-5'>
-                                    <Clip></Clip>
-                                </span>
+                                {/* Clip component intentionally removed from this button to avoid unused import; add back if needed */}
                             </button>
 
                             <button
@@ -41,9 +38,7 @@ function Experience() {
                                 <span>
                                     Internship
                                 </span>
-                                <span className='w-5 h-5'>
-                                    <Clip></Clip>
-                                </span>
+                                {/* Clip component intentionally removed from this button to avoid unused import; add back if needed */}
 
                             </button>
                         </div> */}

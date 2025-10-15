@@ -19,13 +19,14 @@ const FadeInSection: React.FC<FadeInSectionProps> = ({ children }) => {
     });
 
 
-    if (domRef.current) {
-      observer.observe(domRef.current);
+    const node = domRef.current;
+    if (node) {
+      observer.observe(node);
     }
 
     return () => {
-      if (domRef.current) {
-        observer.unobserve(domRef.current);
+      if (node) {
+        observer.unobserve(node);
       }
     };
   }, []);
