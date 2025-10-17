@@ -34,7 +34,7 @@ function Projects() {
                                 <div className="flex justify-center items-center">
                                     <img className="w-3/4 h-auto object-contain" src={`${process.env.PUBLIC_URL}/images/projects/Desktop first project.png`}
                                         title="Desktop mockup of Pulse pricing page" alt="Desktop mockup of Pulse pricing page" />
-                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile first project.png`} title="Mobile mockup of Podia product page" alt="Mobile mockup of Podia product page" />
+                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile First Project.png`} title="Mobile First project page" alt="Mobile First project page" />
                                 </div>
                             </div>
                         </div>
@@ -83,8 +83,8 @@ function Projects() {
                             </div>
                             <div className="-ml-12 sm:-ml-20 md:ml-0 md:w-1/2 relative md:scale-125 xl:scale-100 hover:scale-110">
                                 <div className="flex justify-center items-center">
-                                    <img className="w-3/4 h-auto object-contain" src={`${process.env.PUBLIC_URL}/images/projects/Desktop Second Project.png`} title="Desktop mockup of Podia Product page" alt="Desktop mockup of Podia Product page" />
-                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile Second Project.png`} title="Mobile mockup of Podia product page" alt="Mobile mockup of Podia product page" />
+                                    <img className="w-3/4 h-auto object-contain" src={`${process.env.PUBLIC_URL}/images/projects/Desktop Second Project.png`} title="Desktop CarTTrade product page" alt="Desktop mockup of CarTrade Product page" />
+                                    <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile Second Project.png`} title="Mobile CarTrade product page" alt="Mobile CarTrade product page" />
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ function Projects() {
                                     <img className="w-3/4 h-auto object-contain" src={`${process.env.PUBLIC_URL}/images/projects/Desktop third Project.png`}
                                         title="Spam Number Detection Code"
                                         alt="Spam Number Detection Code" />
-                                        <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile third Project.png`} title="Mobile mockup of Podia product page" alt="Mobile mockup of Podia product page" />
+                                        <img className="w-1/4 h-auto object-contain absolute right-5 top-0" src={`${process.env.PUBLIC_URL}/images/projects/Mobile Third Project.png`} title="Mobile Third product page" alt="Mobile Third product page" />
                                         
                                 </div>
                             </div>
